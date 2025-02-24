@@ -1,0 +1,8 @@
+# ignore compiled python 2 files
+assignment_1_flask_app/*.pyc
+# ignore compiled python 3 files
+__pycache__
+# ignore python virtual machine
+assignment_1_flask_app/venv/
+
+.DS_Store
