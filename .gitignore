@@ -6,3 +6,4 @@ __pycache__
 assignment_1_flask_app/venv/
 
 .DS_Store
+.idea/
