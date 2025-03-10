@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder='./')
 
+#added comment
 # Conversion functions
 def kg_to_grams(kg):
     # 1 kg = 1000 grams
