@@ -56,7 +56,7 @@ def index():
                 result = "Invalid conversion"
 
             # results as strings
-            if result is not "Invalid conversion":
+            if result != "Invalid conversion":
                 result = f"{value} {from_unit} is equal to {result} {to_unit}"
         # check for errors
         except ValueError:
