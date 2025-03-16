@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder='./')
 
-#added comment
 # Conversion functions
 def kg_to_grams(kg):
     # 1 kg = 1000 grams
@@ -59,7 +58,7 @@ def index():
             # results as strings
             if result != "Invalid conversion":
                 result = f"{value} {from_unit} is equal to {result} {to_unit}"
-        # check for errors
+            
         except ValueError:
             result = "Invalid input"
 
